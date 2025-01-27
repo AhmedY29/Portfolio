@@ -28,7 +28,7 @@ function Projects() {
     },
         {
         name: 'My Portfolio',
-        desc: 'A web application for Show My work',
+        desc: 'My personal website showcases my skills as a software developer, previous projects, and the technologies I specialize in.',
         technologies: ['js','react'],
         img:projectImg3,
         complete:false,
