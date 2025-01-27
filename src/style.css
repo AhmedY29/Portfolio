@@ -78,8 +78,10 @@ body{
     .bottomBlur{
         width: 70vw !important;
         height: 300vw !important;
-        top: 600px !important;
+        top: 460px !important;
         right: 23vw !important;
+        filter: blur(200px) !important;
+
     }
     
 
@@ -88,12 +90,16 @@ body{
     .centerBlur{
         height: 101vw !important;
         top: 218px !important;
+        filter: blur(200px) !important;
+
     }
     .bottomBlur{
         width: 70vw !important;
         height: 460vw !important;
-        top: 600px !important;
+        top: 57px !important;
         right: 23vw !important;
+        filter: blur(150px) !important;
+
     }
     
 
