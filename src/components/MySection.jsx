@@ -15,7 +15,10 @@ function MySection() {
                 <div className="text">
                     <h2>Welcome,<b> I'm Ahmed Alsaleh </b>👋🏻</h2>
                     <hr />
-                    <p>I have experience in application development and strong skills in dealing with different programming languages. I have a passion for solving technical problems and providing innovative solutions. I seek to join an ambitious team to contribute to the development of distinctive technical projects and achieve common goals.</p>
+                    <p>As a passionate and dedicated Software Engineer, I aim to leverage my expertise in full-stack development to
+                        create impactful and efficient solutions. I am eager to contribute to the success of the team by collaborating
+                        with innovative professionals and delivering high-quality software applications that align with modern
+                        technological advancements. </p>
                 </div>
             </div>
             <Links/>

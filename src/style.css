@@ -112,7 +112,7 @@ body{
     margin: 0;
 }
 .mySection .container .mySection-content .text h2 b{
-    color: rgba(18, 47, 109, 0.75);
+    color: #345fbbbf;
 }
 .mySection .container .mySection-content .text p{
     line-height: 1.6;
@@ -359,7 +359,7 @@ footer{
 }
 
 footer a {
-    color: #186178;
+    color: #345fbbbf;
 }
 footer a:hover{
     text-decoration: none;
