@@ -5,7 +5,7 @@ import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { IoDocumentText } from "react-icons/io5";
-import Resume from '../assets/Ahmed Alsaleh - CV 1.pdf'
+import Resume from '../assets/Ahmed Alsaleh - CV.pdf'
 
 function Links() {
   return (
