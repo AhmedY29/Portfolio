@@ -4,6 +4,7 @@ import Card from './Card';
 import projectImg1 from "../assets/project1.jpeg"
 import projectImg2 from "../assets/project2.jpeg"
 import projectImg3 from "../assets/project3.jpeg"
+import projectImg4 from "../assets/project4.png"
 
 
 
@@ -26,13 +27,21 @@ function Projects() {
         complete:true,
         link:'https://todo2977.netlify.app/'
     },
-        {
+    {
         name: 'My Portfolio',
         desc: 'My personal website showcases my skills as a software developer, previous projects, and the technologies I specialize in.',
         technologies: ['js','react'],
         img:projectImg3,
         complete:false,
         link:'https://ahmed-alsaleh.netlify.app/'
+    },
+    {
+        name: 'Travel Planner',
+        desc: 'A web application designed to help users plan their trips. The website offers features such as creating customized travel itineraries, exploring popular destinations, and accessing trip details, integrated with Gemini, Build your plan by Asking some questions.',
+        technologies: ['js','react','gemini' , 'i18next'],
+        img:projectImg4,
+        complete:false,
+        link:'https://travel-plan1.netlify.app/'
     },
 ]
   return (

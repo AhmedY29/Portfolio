@@ -7,6 +7,9 @@ import { SiExpress } from "react-icons/si";
 import { SiMui } from "react-icons/si";
 import { SiMailtrap } from "react-icons/si";
 import { MdOutlineStorage } from "react-icons/md";
+import { RiGeminiFill } from "react-icons/ri";
+import { IoLanguage } from "react-icons/io5";
+
 
 
 
@@ -21,6 +24,8 @@ function Card({name , img , desc , technology , complete , link}) {
         mui: <SiMui color="blue" className="logos" />,
         mailtrap: <SiMailtrap color="white" className="logos" />,
         local: <MdOutlineStorage color="white" className="logos" />,
+        gemini: <RiGeminiFill color="darkblue" className="logos" />,
+        i18next: <IoLanguage color="white" className="logos" />,
       };
   return (
     <div className="card">

@@ -31,11 +31,11 @@ function Links() {
             <FaLinkedin fontSize={'20px'}/>
             </a>
         </div>
-        <div className="telephone">
-        <a href='mailto:alsalehahmed02@gmail.com'>
+        {/* <div className="telephone">
+        <a href='0501108382'>
             <BsFillTelephoneFill fontSize={'20px'}/>
             </a>
-        </div>
+        </div> */}
         <div className="resume">
         <a href={Resume} target='_blank'>
             <IoDocumentText fontSize={'20px'}/>
