@@ -1,10 +1,5 @@
 import React from "react";
 import { IoLocationOutline } from "react-icons/io5";
-import { MdEmail } from "react-icons/md";
-import { IoLogoGithub } from "react-icons/io";
-import { FaLinkedin } from "react-icons/fa";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import { IoDocumentText } from "react-icons/io5";
 import Resume from "../assets/Ahmed Alsaleh - CV.pdf";
 import Link from "./Link";
 
