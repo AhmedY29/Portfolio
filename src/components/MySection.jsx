@@ -31,11 +31,11 @@ function MySection() {
             <hr />
             <p>
               As a passionate and dedicated Software Engineer, I aim to leverage
-              my expertise in full-stack development to create impactful and
-              efficient solutions. I am eager to contribute to the success of
-              the team by collaborating with innovative professionals and
-              delivering high-quality software applications that align with
-              modern technological advancements.{" "}
+              my expertise in Web development to create impactful and efficient
+              solutions. I am eager to contribute to the success of the team by
+              collaborating with innovative professionals and delivering
+              high-quality software applications that align with modern
+              technological advancements.{" "}
             </p>
           </div>
         </div>
