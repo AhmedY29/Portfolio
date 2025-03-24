@@ -9,6 +9,9 @@ import { SiMailtrap } from "react-icons/si";
 import { MdOutlineStorage } from "react-icons/md";
 import { RiGeminiFill } from "react-icons/ri";
 import { IoLanguage } from "react-icons/io5";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+
 import svgGsap from "../assets/gsap.svg";
 import gsap from "gsap";
 
@@ -16,6 +19,8 @@ const Card = forwardRef(
   ({ name, img, desc, technology, complete, link }, ref) => {
     console.log(technology);
     const icons = {
+      html: <FaHtml5 color="orange" className="logos" />,
+      css: <FaCss3Alt color="blue" className="logos" />,
       js: <IoLogoJavascript color="yellow" className="logos" />,
       react: <FaReact color="lightblue" className="logos" />,
       mongo: <SiMongodb color="green" className="logos" />,

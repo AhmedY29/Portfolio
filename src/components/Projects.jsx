@@ -5,6 +5,8 @@ import projectImg1 from "../assets/project1.jpeg";
 import projectImg2 from "../assets/project2.jpeg";
 import projectImg3 from "../assets/project3.jpeg";
 import projectImg4 from "../assets/project4.png";
+import projectImg5 from "../assets/project5.png";
+import projectImg6 from "../assets/project6.png";
 import gsap from "gsap";
 
 function Projects() {
@@ -73,6 +75,22 @@ function Projects() {
       img: projectImg4,
       complete: false,
       link: "https://travel-plan1.netlify.app/",
+    },
+    {
+      name: "Landing Page - 1",
+      desc: "Convert Design from Figma to Website with AOS animation",
+      technologies: ["html", "css"],
+      img: projectImg5,
+      complete: true,
+      link: "https://ahmedy29.github.io/Landing-1/",
+    },
+    {
+      name: "Landing Page - 2",
+      desc: "Convert Design from Figma to Website with animation",
+      technologies: ["html", "css"],
+      img: projectImg6,
+      complete: true,
+      link: "https://ahmedy29.github.io/Landing-2/",
     },
   ];
   return (
