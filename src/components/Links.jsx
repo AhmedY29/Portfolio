@@ -8,7 +8,7 @@ function Links() {
     <>
       <div className="location">
         <IoLocationOutline fontSize={"20px"} />
-        <p>Saudi Arabia - Alahsa</p>
+        <p>Saudi Arabia</p>
       </div>
       <div className="links">
         <Link

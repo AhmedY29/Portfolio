@@ -7,6 +7,9 @@ import projectImg3 from "../assets/project3.jpeg";
 import projectImg4 from "../assets/project4.png";
 import projectImg5 from "../assets/project5.png";
 import projectImg6 from "../assets/project6.png";
+import projectImg7 from "../assets/project7.png";
+import projectImg8 from "../assets/project8.png";
+import projectImg9 from "../assets/project9.png";
 import gsap from "gsap";
 
 function Projects() {
@@ -91,6 +94,30 @@ function Projects() {
       img: projectImg6,
       complete: true,
       link: "https://ahmedy29.github.io/Landing-2/",
+    },
+    {
+      name: "Steven Fry Blog - Redesign",
+      desc: " redesign for Steven Fry Blog, improving its layout, visuals, and user experience. Additionally, I fixed various issues to ensure smoother navigation, faster loading, and better functionality. The site now looks more modern and works seamlessly across devices.",
+      technologies: ["html", "css"],
+      img: projectImg7,
+      complete: true,
+      link: "https://aabalqahtani.github.io/w2-flex-project/index.html",
+    },
+    {
+      name: "Geeks - Clone",
+      desc: "This is a clone of Geeks, recreated using HTML,CSS. The goal was to practice front-end development by replicating the original design and functionality without modifications. This project is for educational purposes only.",
+      technologies: ["html", "css", "bootstrap"],
+      img: projectImg8,
+      complete: true,
+      link: "https://ahmedy29.github.io/Geeks-Clone-HW/",
+    },
+    {
+      name: "Tuwaiq - Clone",
+      desc: "This is a clone of Tuwaiq, meticulously recreated with HTML,CSS and Bootstrap. While retaining the original design, I identified and fixed several UI/functional issues.This demonstrates both replication skills and problem-solving in front-end development",
+      technologies: ["html", "css", "bootstrap"],
+      img: projectImg9,
+      complete: true,
+      link: "https://ahmedy29.github.io/Tuwaiq-Clone/",
     },
   ];
   return (
