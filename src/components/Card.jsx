@@ -12,6 +12,7 @@ import { IoLanguage } from "react-icons/io5";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa6";
+import { SiTailwindcss } from "react-icons/si";
 
 import svgGsap from "../assets/gsap.svg";
 import gsap from "gsap";
@@ -33,6 +34,7 @@ const Card = forwardRef(
       gemini: <RiGeminiFill color="darkblue" className="logos" />,
       i18next: <IoLanguage color="white" className="logos" />,
       bootstrap: <FaBootstrap color="purple" className="logos" />,
+      tailwind: <SiTailwindcss color="lightblue" className="logos" />,
       gsap: <img className="logos" width={20} src={svgGsap} alt="gsap logo" />,
     };
 

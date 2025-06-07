@@ -10,6 +10,9 @@ import projectImg6 from "../assets/project6.png";
 import projectImg7 from "../assets/project7.png";
 import projectImg8 from "../assets/project8.png";
 import projectImg9 from "../assets/project9.png";
+import projectImg10 from "../assets/project10.png";
+import projectImg11 from "../assets/project11.png";
+import projectImg12 from "../assets/project12.png";
 import gsap from "gsap";
 
 function Projects() {
@@ -118,6 +121,30 @@ function Projects() {
       img: projectImg9,
       complete: true,
       link: "https://ahmedy29.github.io/Tuwaiq-Clone/",
+    },
+    {
+      name: "Youtube - Clone",
+      desc: "This is a clone of Youtube, meticulously recreated with React and Tailwind. While retaining the original design, I identified and fixed several UI/functional issues.This demonstrates both replication skills and problem-solving in front-end development",
+      technologies: ["react", "js", "tailwind"],
+      img: projectImg10,
+      complete: true,
+      link: "https://youtube-clone-kfni.onrender.com/",
+    },
+    {
+      name: "Activision - Clone",
+      desc: "This is a clone of Activision, meticulously recreated with React and Tailwind. While retaining the original design, I identified and fixed several UI/functional issues.This demonstrates both replication skills and problem-solving in front-end development",
+      technologies: ["react", "js", "tailwind"],
+      img: projectImg11,
+      complete: true,
+      link: "https://activision-clone-ahmed.netlify.app/",
+    },
+    {
+      name: "Riyadh season - Clone",
+      desc: "This is a clone of Tuwaiq, meticulously recreated with React and Tailwind. While retaining the original design, I identified and fixed several UI/functional issues.This demonstrates both replication skills and problem-solving in front-end development",
+      technologies: ["react", "js", "tailwind"],
+      img: projectImg12,
+      complete: true,
+      link: "https://riyadh-season-reacthw.netlify.app/",
     },
   ];
   return (
