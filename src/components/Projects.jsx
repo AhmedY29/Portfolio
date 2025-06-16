@@ -2,7 +2,11 @@ import React, { useEffect, useRef } from "react";
 
 import Card from "./Card";
 import projectImg1 from "../assets/project1.jpeg";
-import projectImg2 from "../assets/project2.jpeg";
+
+// To do list IMG
+// import projectImg2 from "../assets/project2.jpeg";
+
+import projectImg2 from "../assets/project2.png";
 import projectImg3 from "../assets/project3.jpeg";
 import projectImg4 from "../assets/project4.png";
 import projectImg5 from "../assets/project5.png";
@@ -59,12 +63,23 @@ function Projects() {
       link: "https://maskn.site/",
     },
     {
-      name: "To Do List",
-      desc: "A web application that helps users manage their daily tasks.",
-      technologies: ["js", "react", "mui", "local"],
+      name: "Modar",
+      desc: `Graduation project management web app designed for university students, supervisors, and admins.
+It allows students to submit their project ideas, track approval status (Pending / Approved / Rejected), view their assigned supervisor, and collaborate with team members — all through a modern, responsive, and animated interface.
+
+The app uses Redux for state management, i18n for multilingual support, React Router for navigation, Tailwind CSS for fast and clean styling, and AOS for smooth scroll animations.`,
+      technologies: [
+        "js",
+        "react",
+        "tailwind",
+        "redux",
+        "i18next",
+        "darkmode",
+        "chart",
+      ],
       img: projectImg2,
-      complete: true,
-      link: "https://todo2977.netlify.app/",
+      complete: false,
+      link: "https://modar.onrender.com/",
     },
     {
       name: "My Portfolio",

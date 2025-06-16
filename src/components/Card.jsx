@@ -13,6 +13,9 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa6";
 import { SiTailwindcss } from "react-icons/si";
+import { TbBrandRedux } from "react-icons/tb";
+import { CgDarkMode } from "react-icons/cg";
+import { FaChartPie } from "react-icons/fa";
 
 import svgGsap from "../assets/gsap.svg";
 import gsap from "gsap";
@@ -35,6 +38,9 @@ const Card = forwardRef(
       i18next: <IoLanguage color="white" className="logos" />,
       bootstrap: <FaBootstrap color="purple" className="logos" />,
       tailwind: <SiTailwindcss color="lightblue" className="logos" />,
+      redux: <TbBrandRedux color="purple" className="logos" />,
+      darkmode: <CgDarkMode color="white" className="logos" />,
+      chart: <FaChartPie color="white" className="logos" />,
       gsap: <img className="logos" width={20} src={svgGsap} alt="gsap logo" />,
     };
 
