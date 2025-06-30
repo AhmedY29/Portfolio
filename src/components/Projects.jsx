@@ -67,7 +67,7 @@ function Projects() {
       desc: `Graduation project management web app designed for university students, supervisors, and admins.
 It allows students to submit their project ideas, track approval status (Pending / Approved / Rejected), view their assigned supervisor, and collaborate with team members — all through a modern, responsive, and animated interface.
 
-The app uses Redux for state management, i18n for multilingual support, React Router for navigation, Tailwind CSS for fast and clean styling, and AOS for smooth scroll animations.`,
+The app uses Mock Api and Redux for state management, i18n for multilingual support, React Router for navigation, Tailwind CSS for fast and clean styling, and AOS for smooth scroll animations.`,
       technologies: [
         "js",
         "react",
