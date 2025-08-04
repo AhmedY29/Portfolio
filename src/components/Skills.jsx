@@ -13,7 +13,10 @@ function Skills() {
           <span>express js</span>
           <span>node js</span>
           <span>mongo db</span>
+          <span>postgresql</span>
           <span>material ui</span>
+          <span>Tailwind</span>
+          <span>Shadcn</span>
           <span>python</span>
           <span>java</span>
           <span>dart</span>
@@ -26,7 +29,7 @@ function Skills() {
           <span>ux- ui</span>
           <span>basic accounting</span>
           <span>mern stack</span>
-          <span>firebase</span>
+          <span>supabase</span>
           <span>jest</span>
           <span>problem solving</span>
           <span>design system</span>

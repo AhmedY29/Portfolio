@@ -30,12 +30,16 @@ function MySection() {
             </h2>
             <hr />
             <p>
-              As a passionate and dedicated Software Engineer, I aim to leverage
-              my expertise in Web development to create impactful and efficient
-              solutions. I am eager to contribute to the success of the team by
-              collaborating with innovative professionals and delivering
-              high-quality software applications that align with modern
-              technological advancements.{" "}
+              Innovative Software Engineer specializing in web development, with
+              hands-on experience building scalable, multilingual applications
+              using Next.js, React.js, Node.js, MongoDB, and Supabase.
+              Proficient in implementing internationalization with i18next, and
+              highly skilled in problem-solving, effective communication, and
+              team collaboration. Experienced in translating Figma designs into
+              responsive web applications. Eager to contribute technical
+              expertise and a collaborative mindset to a dynamic team,
+              delivering high-performance, user-focused web solutions aligned
+              with business goals.
             </p>
           </div>
         </div>

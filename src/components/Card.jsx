@@ -16,6 +16,8 @@ import { SiTailwindcss } from "react-icons/si";
 import { TbBrandRedux } from "react-icons/tb";
 import { CgDarkMode } from "react-icons/cg";
 import { FaChartPie } from "react-icons/fa";
+import { SiMapbox } from "react-icons/si";
+import { SiShadcnui } from "react-icons/si";
 
 import svgGsap from "../assets/gsap.svg";
 import gsap from "gsap";
@@ -41,6 +43,8 @@ const Card = forwardRef(
       redux: <TbBrandRedux color="purple" className="logos" />,
       darkmode: <CgDarkMode color="white" className="logos" />,
       chart: <FaChartPie color="white" className="logos" />,
+      mapbox: <SiMapbox color="white" className="logos" />,
+      shadcn: <SiShadcnui color="white" className="logos" />,
       gsap: <img className="logos" width={20} src={svgGsap} alt="gsap logo" />,
     };
 

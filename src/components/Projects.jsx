@@ -10,13 +10,13 @@ import projectImg2 from "../assets/project2.png";
 import projectImg3 from "../assets/project3.jpeg";
 import projectImg4 from "../assets/project4.png";
 import projectImg5 from "../assets/project5.png";
-import projectImg6 from "../assets/project6.png";
 import projectImg7 from "../assets/project7.png";
 import projectImg8 from "../assets/project8.png";
 import projectImg9 from "../assets/project9.png";
 import projectImg10 from "../assets/project10.png";
 import projectImg11 from "../assets/project11.png";
 import projectImg12 from "../assets/project12.png";
+import projectImg13 from "../assets/project13.png";
 import gsap from "gsap";
 
 function Projects() {
@@ -46,6 +46,24 @@ function Projects() {
     });
   }, []);
   const project = [
+    {
+      name: "Bus Line",
+      desc: "A smart and secure solution for school transportation, especially designed for students facing difficulties accessing schools or universities. The platform offers real-time tracking of buses and a reliable communication system between drivers and students to ensure safe and efficient transport.",
+      technologies: [
+        "js",
+        "react",
+        "express",
+        "node",
+        "mongo",
+        "socket",
+        "tailwind",
+        "shadcn",
+        "mapbox",
+      ],
+      img: projectImg13,
+      complete: true,
+      link: "https://bus-line.onrender.com/",
+    },
     {
       name: "Real Estate - Maskn",
       desc: "A platform for buying and renting properties, enabling marketers to showcase their listings professionally. The platform offers users a seamless browsing experience and an advanced search feature to find properties efficiently.",
@@ -91,7 +109,7 @@ The app uses Mock Api and Redux for state management, i18n for multilingual supp
     },
     {
       name: "Travel Planner",
-      desc: "A web application designed to help users plan their trips. The website offers features such as creating customized travel itineraries, exploring popular destinations, and accessing trip details, integrated with Gemini, Build your plan by Asking some questions.",
+      desc: "A web application designed to help users plan their trips. The website offers features such as creating customized travel itineraries, exploring popular destinations, and accessing trip details, integrated with Gemini, Build your plan by Asking some questions using Gemini Api.",
       technologies: ["js", "react", "gemini", "i18next", "gsap"],
       img: projectImg4,
       complete: false,
@@ -105,14 +123,7 @@ The app uses Mock Api and Redux for state management, i18n for multilingual supp
       complete: true,
       link: "https://ahmedy29.github.io/Landing-1/",
     },
-    {
-      name: "Landing Page - 2",
-      desc: "Convert Design from Figma to Website with animation",
-      technologies: ["html", "css"],
-      img: projectImg6,
-      complete: true,
-      link: "https://ahmedy29.github.io/Landing-2/",
-    },
+
     {
       name: "Steven Fry Blog - Redesign",
       desc: " redesign for Steven Fry Blog, improving its layout, visuals, and user experience. Additionally, I fixed various issues to ensure smoother navigation, faster loading, and better functionality. The site now looks more modern and works seamlessly across devices.",
@@ -155,7 +166,7 @@ The app uses Mock Api and Redux for state management, i18n for multilingual supp
     },
     {
       name: "Riyadh season - Clone",
-      desc: "This is a clone of Tuwaiq, meticulously recreated with React and Tailwind. While retaining the original design, I identified and fixed several UI/functional issues.This demonstrates both replication skills and problem-solving in front-end development",
+      desc: "This is a clone of Riyadh season, meticulously recreated with React and Tailwind. While retaining the original design, I identified and fixed several UI/functional issues.This demonstrates both replication skills and problem-solving in front-end development",
       technologies: ["react", "js", "tailwind"],
       img: projectImg12,
       complete: true,
