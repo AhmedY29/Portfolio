@@ -81,13 +81,13 @@ export const MY_STACK = {
       name: "Node.js",
       icon: "/logo/node.png",
     },
-    // {
-    //   name: "NestJS",
-    //   icon: "/logo/nest.svg",
-    // },
     {
       name: "Express.js",
       icon: "/logo/express.png",
+    },
+    {
+      name: "Supbase",
+      icon: "/logo/supabase.jpg",
     },
   ],
   database: [
