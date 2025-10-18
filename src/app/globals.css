@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+    --color-background: oklch(0.20 0 0);
+    --color-background-light: oklch(0.19 0 0);
+    --color-foreground: oklch(0.87 0 0);
+
+    --color-card: oklch(0.039 0 0);
+    --color-card-foreground: oklch(0.98 0 0);
+    --color-popover: oklch(0.039 0 0);
+    --color-popover-foreground: oklch(0.98 0 0);
+
+    --color-primary: oklch(0.47 0.156 240);
+    --color-primary-foreground: oklch(0.13 0 0);
+    --color-secondary: oklch(0.47 0.156 193);
+    --color-secondary-foreground: oklch(0.13 0 0);
+    --color-muted: oklch(0.149 0 0);
+    --color-muted-foreground: oklch(0.71 0 0);
+    --color-accent: oklch(0.149 0 0);
+    --color-accent-foreground: oklch(0.98 0 0);
+    --color-destructive: oklch(0.306 0.157 29);
+    --color-destructive-foreground: oklch(0.98 0 0);
+    --color-border: oklch(0.24 0 0);
+    --color-input: oklch(0.149 0 0);
+    --color-ring: oklch(0.831 0 0);
+
+    --color-chart-1: oklch(0.50 0.156 220);
+    --color-chart-2: oklch(0.45 0.134 160);
+    --color-chart-3: oklch(0.55 0.178 30);
+    --color-chart-4: oklch(0.60 0.145 280);
+    --color-chart-5: oklch(0.55 0.167 340);
+
+    --font-roboto-flex: 'Roboto Flex', sans-serif;
+}
+
+@layer base {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    
+    * {
+        border-color: var(--color-border);
+        cursor: none !important;
+    }
+    
+    body {
+        background-color: var(--color-background);
+        color: var(--color-foreground);
+        font-family: var(--font-roboto-flex);
+    }
+
+    .font-anton {
+        font-family: var(--font-anton);
+    }
+}
+
+@layer components {
+    .grid {
+        gap: 25px;
+    }
+
+    .markdown-text ul {
+        padding-left: 1.25rem;
+        margin-top: 0.5rem;
+        list-style-type: disc;
+    }
+}
