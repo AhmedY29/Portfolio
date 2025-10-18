@@ -86,7 +86,7 @@ export const MY_STACK = {
       icon: "/logo/express.png",
     },
     {
-      name: "Supbase",
+      name: "Supabase",
       icon: "/logo/supabase.jpg",
     },
   ],
