@@ -10,7 +10,7 @@ import ParticleBackground from '@/components/ParticleBackground';
 import Navbar from '@/components/Navbar';
 import CustomCursor from '@/components/CustomCursor';
 import Preloader from '../components/Preloader';
-import { GoogleAnalytics } from '@next/third-parties/google';
+// import { GoogleAnalytics } from '@next/third-parties/google';
 import Script from 'next/script';
 
 const antonFont = Anton({
@@ -39,7 +39,19 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <GoogleAnalytics gaId="G-Y7C2JVE3B0" />
+            {/* <GoogleAnalytics gaId="G-Y7C2JVE3B0" /> */}
+             <Script
+                src={`https://www.googletagmanager.com/gtag/js?id=G-Y7C2JVE3B0`}
+                strategy="afterInteractive"
+            />
+            <Script id="ga" strategy="afterInteractive">
+                {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-Y7C2JVE3B0');
+                `}
+            </Script>
             {/* <Script id="hotjar" strategy="afterInteractive">
                 {`(function(h,o,t,j,a,r){
                 h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
