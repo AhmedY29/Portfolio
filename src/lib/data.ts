@@ -130,9 +130,59 @@ export const MY_STACK = {
 
 export const PROJECTS: IProject[] = [
   {
+    title: "Jahizni",
+    slug: "jahizni",
+    liveUrl: "https://jahizni.com/ar",
+    year: 2025,
+   description: `
+    A smart educational platform that transforms lecture slides into interactive AI-powered practice exams, designed to help students prepare more effectively for their tests. <br/> <br/>
+    
+    Key Features:<br/>
+    <ul>
+      <li>🤖 AI-Powered Exam Generation: Upload PDF files and automatically generate customized exams with intelligent question creation</li>
+      <li>📊 Detailed Performance Analytics: Track progress by topic with visual charts, percentages, and comprehensive insights</li>
+      <li>🔄 Attempt Comparison: Compare performance across multiple attempts with side-by-side question analysis and improvement tracking</li>
+      <li>⚙️ Customizable Settings: Control difficulty level (Easy/Medium/Hard/Mixed), number of questions (5-30), and time limits (5-120 minutes)</li>
+      <li>💡 Smart Tips: AI-generated hints for each question to guide learning and understanding</li>
+      <li>🌐 Bilingual Support: Full Arabic and English interface with automatic RTL/LTR layout switching</li>
+      <li>🔐 Complete Authentication: Google OAuth and credentials-based login with NextAuth integration</li>
+      <li>📱 Fully Responsive: Modern UI optimized for all devices using Tailwind CSS and ShadCN components</li>
+      <li>🎯 Question Navigation: Visual question tracker showing answered/unanswered status with quick navigation</li>
+      <li>⏱️ Advanced Timer: Persistent countdown timer with auto-submit functionality</li>
+      <li>📈 Comprehensive Dashboard: View all exams, attempts, statistics, average scores, and question counts</li>
+      <li>🔗 Exam Sharing: Share exams publicly with unique links and toggle public/private visibility</li>
+      <li>📄 PDF Analysis: Automatic extraction of topics, page references, and content structure from uploaded files</li>
+      <li>🎨 Dark Mode: Complete theme support with smooth transitions between light and dark modes</li>
+    </ul><br/>
+    
+  `,
+  techStack: [
+    "Next.js 16",
+    "TypeScript",
+    "Tailwind CSS",
+    "ShadCN UI",
+    "Prisma ORM",
+    "PostgreSQL",
+    "NextAuth",
+    "Gemini AI",
+    "next-intl",
+    "Supabase",
+  ],
+    thumbnail: "/projects/thumbnail/jahizni-thumbnail.png",
+    longThumbnail: "/projects/long/jahizni-thumbnail.png",
+    images: [
+      "/projects/images/jahizni-1.png",
+      "/projects/images/jahizni-2.png",
+      "/projects/images/jahizni-3.png",
+      "/projects/images/jahizni-4.png",
+      "/projects/images/jahizni-5.png",
+      "/projects/images/jahizni-6.png",
+    ],
+  },
+  {
     title: "Bus Line",
     slug: "bus-line",
-    liveUrl: "https://electroev.co.uk/",
+    liveUrl: "https://bus-line.onrender.com/",
     year: 2025,
     description: `
     A modern transportation platform built to connect students with private bus drivers, solving daily commute challenges for schools and universities. <br/> <br/>

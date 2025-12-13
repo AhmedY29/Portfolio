@@ -50,10 +50,10 @@ export default function RootLayout({
                 a.appendChild(r);
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`}
             </Script> */}
-            <Script
+            {/* <Script
                 src="https://t.contentsquare.net/uxa/3a6141e18811a.js"
                 strategy="afterInteractive"
-            />
+            /> */}
             <body
                 className={`${antonFont.variable} ${robotoFlex.variable} antialiased`}
             >
